@@ -1,7 +1,6 @@
 (ns geodesk-clj.main
   "Basic usage of the Java GeoDesk API,
   used for querying and visualizing Open Street Map data."
-  (:gen-class)
   (:require
    [geodesk-clj.render :refer [make-leaflet-map]])
   (:import
