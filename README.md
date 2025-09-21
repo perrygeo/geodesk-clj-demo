@@ -26,3 +26,10 @@ clj -M:nrepl
 ```
 
 Then open an nrepl-capable editor, open `src/main.clj`, and start evaluating.
+
+```clojure
+;; lakes in Fort Collins
+(make-leaflet-map (.in lakes (places :fort-collins)))
+```
+
+<img src="./screenshot.png">
